@@ -1,11 +1,4 @@
-/*!
- * Project : simply-countdown
- * File : simplyCountdown
- * Date : 27/06/2015
- * License : MIT
- * Version : 1.0.0
- * Author : Vincent Loy <vincent.loy1@gmail.com>
- */
+
 /*global window, document*/
 (function (exports) {
     'use strict';
