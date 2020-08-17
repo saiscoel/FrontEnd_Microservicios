@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -20,6 +21,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
 	<link href="css/style6.css" rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" href="css/shop.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/checkout.css">
+	<link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css' />
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<link href="css/fontawesome-all.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
@@ -90,9 +93,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<!---->
 				</div>
 			</div>
-			
+	
 			<label class="top-log mx-auto"></label>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
+ 			<nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
 
 				<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
 				    aria-expanded="false" aria-label="Toggle navigation">
@@ -107,97 +110,147 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
 							<a class="nav-link" href="consultar.html">Productos Vendidos</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="publicar.html">Publicar</a>
 						</li>
 					</ul>
-
 				</div>
-			</nav>
+			</nav>  
+            
 		</header>
 		<!-- banner -->
 		<div class="banner_inner">
 			<div class="services-breadcrumb">
+				<div class="inner_breadcrumb">
+				</div>
 			</div>
 
 		</div>
 		<!--//banner -->
 	</div>
 	<!--// header_top -->
-	<!--/404-->
+	<!--checkout-->
 	<section class="banner-bottom-wthreelayouts py-lg-5 py-3">
-		<div class="container-fluid">
-
+		<div class="container">
 			<div class="inner-sec-shop px-lg-4 px-3">
-				<h3 class="tittle-w3layouts text-center my-lg-4 my-3">Mis Productos</h3>
-				<div class="row">
-					<div class="col-lg-3 customer-main">
-						<div class="card">
-							<div class="card-body">
-								<div class="customer-img">
-									<img src="images/d3.jpg" alt=" " class="img-fluid rounded">
-								</div>
-								<div class="customer-info text-left py-lg-4 py-2">
-									<h4>Nombre del Producto</h4>
-									<h6>Precio del producto</h6>
-									<p>Descripción del producto. Aenean orci erat, placerat id pulvinar nec..</p>
-									<div class="row justify-content-right border-top">
-                                        <h5 class="col-md-4 text-left"></h5>
-                                        <form action="editar_producto.html" class="col-md-2 pt-2">
-                                            <button type="submit" class="btn btn-primary submit mb-4">Editar</button>
-                                        </form>
-                                        <h5 class="col-md-4 text-left"></h5>
+				<h3 class="tittle-w3layouts my-lg-4 mt-3">Facturación </h3>
+				<div class="checkout-right">
+					<h4> Productos </h4>
+                    
+					<table class="timetable_sub">
+						<thead>
+							<tr>
+								<th>No.</th>
+								<th>Producto</th>
+								<th>Cantidad</th>
+								<th>Nombre del Producto</th>
+
+								<th>Precio</th>
+								<th>Eliminar</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="rem1">
+								<td class="invert">1</td>
+								<td class="invert-image">
+									<a href="single.html">
+										<img src="images/s1.jpg" alt=" " class="img-responsive">
+									</a>
+								</td>
+								<td class="invert">
+									<div class="quantity">
+										<div class="quantity-select">
+											<div class="entry value-minus">&nbsp;</div>
+											<div class="entry value">
+												<span>1</span>
+											</div>
+											<div class="entry value-plus active">&nbsp;</div>
+										</div>
 									</div>
-								</div>
-							</div>
-						</div>
+								</td>
+								<td class="invert">Irayz Butterfly </td>
+
+								<td class="invert">$281.00</td>
+								<td class="invert">
+									<div class="rem">
+										<div class="close1"> </div>
+									</div>
+
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="checkout-left row">
+					<div class="col-md-4 checkout-left-basket">
+						<h4>Detalle de Compra</h4>
+						<ul>
+							<li>Producto
+								<i>-</i>
+								<span>$281.00 </span>
+							</li>
+							
+							<li>Total Service Charges
+								<i>-</i>
+								<span>$55.00</span>
+							</li>
+							<li>Total
+								<i>-</i>
+								<span>$986.00</span>
+							</li>
+						</ul>
 					</div>
-					<div class="col-lg-3 customer-main">
-						<div class="card">
-							<div class="card-body">
-								<div class="customer-img">
-									<img src="images/d1.jpg" alt=" " class="img-fluid rounded">
-								</div>
-								<div class="customer-info text-left py-lg-4 py-2">
-									<h4>Nombre del Producto</h4>
-									<h6>Precio del producto</h6>
-									<p>Descripción del producto. Aenean orci erat, placerat id pulvinar nec..</p>
-									<div class="row justify-content-right border-top">
-                                        <h5 class="col-md-4 text-left"></h5>
-                                        <form action="editar_producto.html" class="col-md-2 pt-2">
-                                            <button type="submit" class="btn btn-primary submit mb-4">Editar</button>
-                                        </form>
-                                        <h5 class="col-md-4 text-left"></h5>
+					<div class="col-md-8 address_form">
+						<h4>Detalles Facturación</h4>
+						<form action="#" method="post" class="creditly-card-form agileinfo_form">
+							<section class="creditly-wrapper wrapper">
+								<div class="information-wrapper">
+									<div class="first-row form-group">
+										<div class="controls">
+											<label class="control-label">Nombres y Apellidos: </label>
+											<input class="billing-address-name form-control" type="text" name="name" placeholder="Nombres y Apellidos">
+										</div>
+										<div class="card_number_grids">
+											<div class="card_number_grid_left">
+												<div class="controls">
+													<label class="control-label">Número de Teléfono: </label>
+													<input class="form-control" type="text" placeholder="Número de Teléfono">
+												</div>
+											</div>
+											<div class="card_number_grid_right">
+												<div class="controls">
+													<label class="control-label">Dirección: </label>
+													<input class="form-control" type="text" placeholder="Dirección">
+												</div>
+											</div>
+											<div class="clear"> </div>
+										</div>
+										<div class="controls">
+											<label class="control-label">Ciudad: </label>
+											<input class="form-control" type="text" placeholder="Ciudad">
+										</div>
 									</div>
+									<button class="submit check_out">Pagar</button>
 								</div>
-							</div>
-						</div>
+							</section>
+						</form>
+				<!---		<div class="checkout-right-basket">
+							<a href="payment.html">Make a Payment </a>
+						</div>       --->
 					</div>
-				<!--	<div class="col-lg-3 customer-main">
-						<div class="card">
-							<div class="card-body">
-								<div class="customer-img">
-									<img src="images/team3.jpg" alt=" " class="img-fluid rounded">
-								</div>
-								<div class="customer-info text-left py-lg-4 py-2">
-									<h4>Customer 3</h4>
-									<h6>Lorem ipsum dolor sit</h6>
-									<p>Aenean orci erat, placerat id pulvinar nec, tincidunt vel eros.</p>
-									<div class="row  pt-3 mt-3 team-social border-top">
-										<h5 class="col-md-4 text-left">Contact</h5>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> --->               
-                </div>
+
+					<div class="clearfix"> </div>
+
+				</div>
+
 			</div>
+
 		</div>
 	</section>
-	<!--//404-->
+	<!--//checkout-->
 	<!--footer -->
 	<footer class="py-lg-5 py-3">
 		<div class="container-fluid px-lg-5 px-3">
@@ -206,9 +259,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 	</footer>
-    
-	<!-- //footer -->
 
+	<!-- //footer -->
 	<!--jQuery-->
 	<script src="js/jquery-2.2.3.min.js"></script>
 	<!-- newsletter modal -->
@@ -247,6 +299,75 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 	<!-- carousel -->
+	<!-- easy-responsive-tabs -->
+	<script src="js/easy-responsive-tabs.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true, // 100% fit in a container
+				closed: 'accordion', // Start closed if in accordion view
+				activate: function (event) { // Callback function if tab is switched
+					var $tab = $(this);
+					var $info = $('#tabInfo');
+					var $name = $('span', $info);
+					$name.text($tab.text());
+					$info.show();
+				}
+			});
+			$('#verticalTab').easyResponsiveTabs({
+				type: 'vertical',
+				width: 'auto',
+				fit: true
+			});
+		});
+	</script>
+	<!--quantity-->
+	<script>
+		$('.value-plus').on('click', function () {
+			var divUpd = $(this).parent().find('.value'),
+				newVal = parseInt(divUpd.text(), 10) + 1;
+			divUpd.text(newVal);
+		});
+
+		$('.value-minus').on('click', function () {
+			var divUpd = $(this).parent().find('.value'),
+				newVal = parseInt(divUpd.text(), 10) - 1;
+			if (newVal >= 1) divUpd.text(newVal);
+		});
+	</script>
+	<!--quantity-->
+	<!--close-->
+	<script>
+		$(document).ready(function (c) {
+			$('.close1').on('click', function (c) {
+				$('.rem1').fadeOut('slow', function (c) {
+					$('.rem1').remove();
+				});
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function (c) {
+			$('.close2').on('click', function (c) {
+				$('.rem2').fadeOut('slow', function (c) {
+					$('.rem2').remove();
+				});
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function (c) {
+			$('.close3').on('click', function (c) {
+				$('.rem3').fadeOut('slow', function (c) {
+					$('.rem3').remove();
+				});
+			});
+		});
+	</script>
+	<!--//close-->
+
 	<!-- dropdown nav -->
 	<script>
 		$(document).ready(function () {
